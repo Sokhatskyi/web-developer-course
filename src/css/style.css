@@ -1,12 +1,43 @@
-h1, h2, h3 {
-    text-align: center;
-    color: #cc0000;
+/* селектор {
+    свойство: значение;
+    свойство: значение;
+    свойство: значение;
+} */
+
+p mark {
+    color: #d92828b6;
 }
 
-.uppercase {
+h1, h2, h3 {
+    text-align: center;
+}
+
+.first {
+    margin-top: 150px;
+    color: blue;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: line-through;
     text-transform: uppercase;
 }
 
-.italic {
-    font-style: italic;
+#second {
+    color: pink;
+}
+
+.marked {
+    color: yellow;
+}
+
+.box {
+    width: 300px;
+    min-height: 300px;
+    background-color: red;
+    /* border-color: black;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px solid black;
+    padding: 50px 20px;
+    margin: 20px;
 }
